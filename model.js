@@ -14,7 +14,7 @@ if (!window.location.hash) {
 
 fetch(
     //GET https://api.fitbit.com/1/user/-/activities/heart/date/today/1d/1sec/time/00:00/00:01.json
-    'https://api.fitbit.com/1/user/-/activities/heart/date/2017-12-14/1d/1sec/time/13:00/23:00.json',
+    'https://api.fitbit.com/1/user/-/activities/heart/date/today/1d/1sec.json',
     {
         headers: new Headers({
             'Authorization': 'Bearer ' + fitbitAccessToken
