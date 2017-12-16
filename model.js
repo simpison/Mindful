@@ -28,7 +28,7 @@ fetch(
 ).then(function(response){
     return response.json();
 }).then(function(data) {
-    //console.log(data);
+    console.log(data);
     heartRateArray = data['activities-heart-intraday'].dataset;
     
     var print = false;
