@@ -34,3 +34,18 @@ fetch(
     console.log(error);
 });
 
+var print = false;
+
+for (var i = 0; i < heartRateArray.length; i++) {
+  var tid = heartRateArray[i].time;
+  var puls = heartRateArray[i].value;
+  if(tid.substr(0, 5); == "13:28"){
+    print = true;
+  }
+  if(tid.substr(0, 5); == "13:31"){
+    print = false;
+  }
+  if(print){
+    console.log(tid);
+  }
+};
