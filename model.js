@@ -43,7 +43,7 @@ fetch(
         print = false;
       }
       if(print){
-        console.log(tid);
+        console.log(heartRateArray[i]);
       }
     }
 
