@@ -60,10 +60,10 @@ fetch(
     for (var i = 0; i < heartRateArray.length; i++) {
       var tid = heartRateArray[i].time;
       var puls = heartRateArray[i].value;
-      if(tid.substr(0, 5) == "14:05"){
+      if(tid.substr(0, 5) == "14:12"){
         print = true;
       }
-      if(tid.substr(0, 5) == "14:08"){
+      if(tid.substr(0, 5) == "14:15"){
         print = false;
       }
       if(print){
@@ -163,11 +163,11 @@ fetch(
     // dlAnchorElem.setAttribute("download", "puls1.json");
     // dlAnchorElem.click();
 
-    // var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test2));
-    // var dlAnchorElem = document.getElementById('downloadAnchorElem');
-    // dlAnchorElem.setAttribute("href", dataStr);
-    // dlAnchorElem.setAttribute("download", "puls2.json");
-    // dlAnchorElem.click();
+    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test2));
+    var dlAnchorElem = document.getElementById('downloadAnchorElem');
+    dlAnchorElem.setAttribute("href", dataStr);
+    dlAnchorElem.setAttribute("download", "puls2.json");
+    dlAnchorElem.click();
 
     // var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test3));
     // var dlAnchorElem = document.getElementById('downloadAnchorElem');
