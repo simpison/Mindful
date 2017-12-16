@@ -48,7 +48,7 @@ fetch(
     }
 
 
-    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(heartRateArray[0]));
+    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(heartRateArray));
     var dlAnchorElem = document.getElementById('downloadAnchorElem');
     dlAnchorElem.setAttribute("href", dataStr);
     dlAnchorElem.setAttribute("download", "puls.json");
