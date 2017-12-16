@@ -1,5 +1,5 @@
 var fitbitAccessToken;
-var heartRateArray;
+var heartRateArray = [];
 
 if (!window.location.hash) {
   window.location.replace('https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22CHCL&redirect_uri=https%3A%2F%2Fsimpison.github.io%2FMindful%2F&scope=heartrate&expires_in=604800');
@@ -30,22 +30,23 @@ fetch(
 }).then(function(data) {
     console.log(data);
     heartRateArray = data['activities-heart-intraday'].dataset;
+    
+    var print = false;
+
+    for (var i = 0; i < heartRateArray.length; i++) {
+      var tid = heartRateArray[i].time;
+      var puls = heartRateArray[i].value;
+      if(tid.substr(0, 5) == "13:28"){
+        print = true;
+      }
+      if(tid.substr(0, 5) == "13:31"){
+        print = false;
+      }
+      if(print){
+        console.log(tid);
+      }
+    }
+
 }).catch(function(error) {
     console.log(error);
 });
-
-var print = false;
-
-for (var i = 0; i < heartRateArray.length; i++) {
-  var tid = heartRateArray[i].time;
-  var puls = heartRateArray[i].value;
-  if(tid.substr(0, 5) == "13:28"){
-    print = true;
-  }
-  if(tid.substr(0, 5) == "13:31"){
-    print = false;
-  }
-  if(print){
-    console.log(tid);
-  }
-};
