@@ -157,53 +157,53 @@ fetch(
       }
     }
 
-    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test1));
-    var dlAnchorElem = document.getElementById('downloadAnchorElem');
-    dlAnchorElem.setAttribute("href", dataStr);
-    dlAnchorElem.setAttribute("download", "puls1.json");
-    dlAnchorElem.click();
+    // var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test1));
+    // var dlAnchorElem = document.getElementById('downloadAnchorElem');
+    // dlAnchorElem.setAttribute("href", dataStr);
+    // dlAnchorElem.setAttribute("download", "puls1.json");
+    // dlAnchorElem.click();
 
-    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test2));
-    var dlAnchorElem = document.getElementById('downloadAnchorElem');
-    dlAnchorElem.setAttribute("href", dataStr);
-    dlAnchorElem.setAttribute("download", "puls2.json");
-    dlAnchorElem.click();
+    // var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test2));
+    // var dlAnchorElem = document.getElementById('downloadAnchorElem');
+    // dlAnchorElem.setAttribute("href", dataStr);
+    // dlAnchorElem.setAttribute("download", "puls2.json");
+    // dlAnchorElem.click();
 
-    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test3));
-    var dlAnchorElem = document.getElementById('downloadAnchorElem');
-    dlAnchorElem.setAttribute("href", dataStr);
-    dlAnchorElem.setAttribute("download", "puls3.json");
-    dlAnchorElem.click();
+    // var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test3));
+    // var dlAnchorElem = document.getElementById('downloadAnchorElem');
+    // dlAnchorElem.setAttribute("href", dataStr);
+    // dlAnchorElem.setAttribute("download", "puls3.json");
+    // dlAnchorElem.click();
 
-        var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test4));
-    var dlAnchorElem = document.getElementById('downloadAnchorElem');
-    dlAnchorElem.setAttribute("href", dataStr);
-    dlAnchorElem.setAttribute("download", "puls4.json");
-    dlAnchorElem.click();
+    //     var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test4));
+    // var dlAnchorElem = document.getElementById('downloadAnchorElem');
+    // dlAnchorElem.setAttribute("href", dataStr);
+    // dlAnchorElem.setAttribute("download", "puls4.json");
+    // dlAnchorElem.click();
 
-        var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test5));
-    var dlAnchorElem = document.getElementById('downloadAnchorElem');
-    dlAnchorElem.setAttribute("href", dataStr);
-    dlAnchorElem.setAttribute("download", "puls5.json");
-    dlAnchorElem.click();
+    //     var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test5));
+    // var dlAnchorElem = document.getElementById('downloadAnchorElem');
+    // dlAnchorElem.setAttribute("href", dataStr);
+    // dlAnchorElem.setAttribute("download", "puls5.json");
+    // dlAnchorElem.click();
 
-        var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test6));
-    var dlAnchorElem = document.getElementById('downloadAnchorElem');
-    dlAnchorElem.setAttribute("href", dataStr);
-    dlAnchorElem.setAttribute("download", "puls6.json");
-    dlAnchorElem.click();
+    //     var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test6));
+    // var dlAnchorElem = document.getElementById('downloadAnchorElem');
+    // dlAnchorElem.setAttribute("href", dataStr);
+    // dlAnchorElem.setAttribute("download", "puls6.json");
+    // dlAnchorElem.click();
 
-        var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test7));
-    var dlAnchorElem = document.getElementById('downloadAnchorElem');
-    dlAnchorElem.setAttribute("href", dataStr);
-    dlAnchorElem.setAttribute("download", "puls7.json");
-    dlAnchorElem.click();
+    //     var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test7));
+    // var dlAnchorElem = document.getElementById('downloadAnchorElem');
+    // dlAnchorElem.setAttribute("href", dataStr);
+    // dlAnchorElem.setAttribute("download", "puls7.json");
+    // dlAnchorElem.click();
 
-        var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test8));
-    var dlAnchorElem = document.getElementById('downloadAnchorElem');
-    dlAnchorElem.setAttribute("href", dataStr);
-    dlAnchorElem.setAttribute("download", "puls8.json");
-    dlAnchorElem.click();
+    //     var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(test8));
+    // var dlAnchorElem = document.getElementById('downloadAnchorElem');
+    // dlAnchorElem.setAttribute("href", dataStr);
+    // dlAnchorElem.setAttribute("download", "puls8.json");
+    // dlAnchorElem.click();
 
 
 }).catch(function(error) {
