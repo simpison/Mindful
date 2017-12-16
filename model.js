@@ -47,6 +47,13 @@ fetch(
       }
     }
 
+
+    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(heartRateArray[0]));
+    var dlAnchorElem = document.getElementById('downloadAnchorElem');
+    dlAnchorElem.setAttribute("href", dataStr);
+    dlAnchorElem.setAttribute("download", "puls.json");
+    dlAnchorElem.click();
+
 }).catch(function(error) {
     console.log(error);
 });
