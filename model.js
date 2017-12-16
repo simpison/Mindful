@@ -1,3 +1,5 @@
+var fitbitAccessToken;
+
 if (!window.location.hash) {
   window.location.replace('https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22CHCL&redirect_uri=https%3A%2F%2Fsimpison.github.io%2FMindful%2F&scope=heartrate&expires_in=604800');
 } else {
